@@ -79,7 +79,7 @@ int main(int argc, char **argv)
   std::vector<unsigned char> output(width*height*nbChannels);
   
   //As an example, we just scan the pixels of the source image
-  //and revert the color histogram.
+  //and swap the color channels.
   for(auto i = 0 ; i < width ; ++i)
   {
     for(auto j = 0; j < height; ++j)
@@ -88,7 +88,7 @@ int main(int argc, char **argv)
       unsigned char r = source[ indexPixel ];
       unsigned char g = source[ indexPixel + 1];
       unsigned char b = source[ indexPixel + 2];
-      //Inverting the colors
+      //Swapping the channels
       output[ indexPixel ] = b;
       output[ indexPixel + 1 ] = g;
       output[ indexPixel + 2 ] = r;
