@@ -2,7 +2,7 @@
 
 No dependency is required, just a c++11 compiler (gcc, clang, ...).
 
-## Linux / MacOS
+## Linux / MacOS
 
 Default setting (using cmake - makefile)
 
@@ -17,6 +17,6 @@ To build the code in release mode, consider using `cmake .. -DCMAKE_BUILD_TYPE=R
 
 (If you want to get a Codeblock / Eclipse or Xcode project, speficy the generator at the cmake step)
 
-## Windows
+## Windows
 
 Use the cmake GUI and generate the Visual Studio projet for instance.
