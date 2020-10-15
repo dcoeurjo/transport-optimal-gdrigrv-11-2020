@@ -46,9 +46,9 @@ int main(int argc, char **argv)
 {
   CLI::App app{"colorTransfer"};
   std::string sourceImage;
-  app.add_option("-s,--source", sourceImage, "Source image")->required();
+  app.add_option("-s,--source", sourceImage, "Source image")->required()->check(CLI::ExistingFile);;
   std::string targetImage;
-  app.add_option("-t,--target", targetImage, "Target image")->required();
+  app.add_option("-t,--target", targetImage, "Target image")->required()->check(CLI::ExistingFile);;
   std::string outputImage= "output.png";
   app.add_option("-o,--output", outputImage, "Output image")->required();
   unsigned int nbSteps = 3;
@@ -78,6 +78,8 @@ int main(int argc, char **argv)
   //Main computation
   std::vector<unsigned char> output(width*height*nbChannels);
   
+  //As an example, we just scan the pixels of the source image
+  //and revert the color histogram.
   for(auto i = 0 ; i < width ; ++i)
   {
     for(auto j = 0; j < height; ++j)
