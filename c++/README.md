@@ -1,5 +1,6 @@
 # Build the C++ project
 
+No dependency is required, just a c++11 compiler (gcc, clang, ...).
 
 ## Linux / MacOS
 
