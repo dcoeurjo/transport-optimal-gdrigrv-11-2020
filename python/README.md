@@ -1,4 +1,4 @@
-# Color Transfer Python
+# Color Transfer Python
 
 Required library: `numpy` and `opencv`
 
