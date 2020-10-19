@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Delaunay_psm.h"
+#include <geogram/delaunay/delaunay_2d.h>
 
 int main()
 {
