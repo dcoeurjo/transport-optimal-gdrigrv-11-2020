@@ -1,3 +1,3 @@
 # transport-optimal-gdrigrv-11-2020
 
-![Build on linux/macOS/windows](https://github.com/dcoeurjo/transport-optimal-gdrigrv-11-2020/workflows/CMake/badge.svg)
+![Continuous Integration (linux/macOS/windows)](https://github.com/dcoeurjo/transport-optimal-gdrigrv-11-2020/workflows/Continuous%20Integration%20(linux/macOS/windows)/badge.svg)
