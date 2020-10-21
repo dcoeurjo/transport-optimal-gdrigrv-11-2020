@@ -1,4 +1,4 @@
-name: CMake
+name: Continuous Integration (linux/macOS/windows)
 
 on: [push]
 
