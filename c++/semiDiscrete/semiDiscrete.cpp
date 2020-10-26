@@ -12,6 +12,8 @@
 #include <geogram/numerics/predicates.h>
 #include <exploragram/optimal_transport/optimal_transport_2d.h>
 
+#include "simple_svg_1.0.0.hpp"
+
 void init_zone_mesh(GEO::Mesh& m){
     GEO::vector<double> points(8);
     points[0]=0;
