@@ -34,6 +34,7 @@ include_directories(${geogram_SOURCE_DIR}/src/lib/)
 
 add_executable(semiDiscrete semiDiscrete.cpp)
 target_link_libraries(semiDiscrete PRIVATE geogram)
+target_link_libraries(semiDiscrete PRIVATE exploragram)
 if(UNIX)
   find_package(Threads REQUIRED)
   target_link_libraries(${EXAMPLE} Threads::Threads)
