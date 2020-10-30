@@ -9,6 +9,8 @@ More precisely, we propose three differnet c++ or python exercices:
  * Regularized Convolutional Wasserstein Barycenters -WIP-
  * Uniform Sampling Semi-Discrete Optimal Transport -WIP-
 
+Each exercice is quite self-contained and independent. For each one, we provide the essential starting kit (`c++` and `python`). For any question, please discuss with us through the Discrod Channel (see below).
+
 
 ## Links
 
