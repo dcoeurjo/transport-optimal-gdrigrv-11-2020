@@ -1,6 +1,6 @@
 # Build the C++ project
 
-No dependency is required, just a c++11 compiler (gcc, clang, ...).
+No dependency is required, just a c++11 compiler (gcc, clang, ...) with a quite recent cmake (>=3.14)
 
 ## Linux / MacOS
 
