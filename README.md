@@ -16,6 +16,4 @@ Each exercice is quite self-contained and independent. For each one, we provide 
 
 * [Discord channel](https://discord.gg/gyqXqQJ) of the project
 
-
-
-(Work in progress)
+![](banner.png)
