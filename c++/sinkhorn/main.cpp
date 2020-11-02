@@ -97,17 +97,12 @@ int main() {
 
 	int W, H, C;
 	
-	//stbi_set_flip_vertically_on_load(true);
-	unsigned char *image = stbi_load("evol1.bmp",
-                                 &W,
-                                 &H,
-                                 &C,
-                                 1);
+	unsigned char *image = stbi_load("evol1.bmp", &W, &H, &C, 1);
 	std::vector<double> image_double(W*H);
 	for (int i=0; i<W*H; i++)
 		image_double[i] = image[i];
 	
-	std::vector<unsigned char> image_result(W*H * 3, 0);
+	std::vector<unsigned char> image_result(W*H, 0);
 	for (int i = 0; i < H; i++) {
 		for (int j = 0; j < W; j++) {
 			image_result[i*W + j] = image_double[i*W+j]*0.5;
