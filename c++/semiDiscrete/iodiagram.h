@@ -99,7 +99,7 @@ inline void outputPoints(const std::vector<double> &points,
     Dimensions dim(size,size);
     Document doc(fname, Layout(dim, Layout::BottomLeft));
 
-    doc << (Polygon(Fill(Color::White)) << Point(0,0)
+    doc << (svg::Polygon(Fill(Color::White)) << Point(0,0)
                                         << Point(size,0)
                                         << Point(size,size)
                                         << Point(0,size) );
