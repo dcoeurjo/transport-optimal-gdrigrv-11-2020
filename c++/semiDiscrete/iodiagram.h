@@ -45,7 +45,7 @@ inline void outputMesh(const GEO::Mesh& m,
     for (int i = 0; i < faces.size(); ++i){
         int indFace = faces[i].second;
         int indPoint = faces[i].first;
-        Polygon shape = svg::Polygon(Fill(getColor(indPoint)), Stroke(1, getColor(indPoint)));
+        svg::Polygon shape = svg::Polygon(Fill(getColor(indPoint)), Stroke(1, getColor(indPoint)));
 
         for(int indVertex=0; indVertex < m.facets.nb_vertices(indFace); ++indVertex){
             int numVertex = m.facets.vertex(indFace, indVertex);
@@ -90,7 +90,7 @@ inline void outputMesh(const GEO::Mesh& m,
     doc.save();
 }
 
-void outputPoints(const std::vector<double> &points,
+inline void outputPoints(const std::vector<double> &points,
                   const std::string& fname){
 
     using namespace svg;
