@@ -7,7 +7,7 @@ This project contains the code and notes of the first [Ecole de recherche du GDR
 More precisely, we propose three differnet `c++` or `python` exercices:
  * [Color Transfer via Discrete Optimal Transport using the sliced approach](https://codimd.math.cnrs.fr/s/2eRBqV9zl)
  * [Regularized Convolutional Wasserstein Barycenters](https://codimd.math.cnrs.fr/s/gde6BSSwV)
- * Uniform Sampling Semi-Discrete Optimal Transport -WIP-
+ * [Uniform Sampling Semi-Discrete Optimal Transport](https://codimd.math.cnrs.fr/s/qZ3jgkzIC)
 
 Each exercice is quite self-contained and independent. For each one, we provide the essential starting kit (`c++` and `python`). For any question, please discuss with us through the Discrod Channel (see below).
 
