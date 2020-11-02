@@ -1,7 +1,8 @@
 #include <iostream>
 #include <vector>
 #include <random>
-#include <algorithm>
+#define _USE_MATH_DEFINES
+#include <cmath>
 
 #include <geogram/basic/common.h>
 #include <geogram/basic/command_line.h>
